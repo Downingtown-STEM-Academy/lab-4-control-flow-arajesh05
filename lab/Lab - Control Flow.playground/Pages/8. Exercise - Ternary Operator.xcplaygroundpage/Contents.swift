@@ -23,6 +23,7 @@ if number1 > number2 {
     largest = number2
 }
 
+largest = number1 > number2 ? number1 : number2
 print(largest)
 //print("The result for set 1 was:")
 //print()
